@@ -1,8 +1,8 @@
 # Calculator
 
-### This is a simple website that has a calculator.
+This is a simple website that has a calculator.
 
-### By **Charles Mwathi**
+By _**Charles Mwathi**_
 
 ## Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-### The calculator does basic Mathematical operations like add, subtraction, multiplication and division.
+The calculator does basic Mathematical operations like add, subtraction, multiplication and division.
 
 ## Setup/Installation Requirements
 
