@@ -8,58 +8,58 @@
   <title>Calculator</title>
 </head>
 <body>
+  <div class="container-fluid container01">
+    <h1 id="heading01">Calculator</h1>
+  </div>
   <div class="container">
-    <h1>Calculator</h1>
-    <h2>Addition</h2>
-    <form id="add">
-      <div class="form-group">
-        <label for="add1">1st number:</label>
-        <input id="add1" class="form-control" type="text">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title">Do some mathematical operations!</h1>
+        <form id="calculatorForm">
+          <div class="form-group">
+            <label for="input01">1st number:</label>
+            <input id="input01" class="form-control" type="number" required>
+          </div>
+          <div class="form-group">
+            <label for="input02">2nd number:</label>
+            <input id="input02" class="form-control" type="number" required>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="add" checked>
+              add
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="subtract">
+              subtract
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="multiply">
+              multiply
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="divide">
+              divide
+            </label>
+          </div>
+    
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="output">
+    
+        </div>
       </div>
-      <div class="form-group">
-        <label for="add2">2nd number:</label>
-        <input id="add2" class="form-control" type="text">
-      </div>
-      <button type="submit" class="">Add!</button>
-    </form>
-    <h2>Subtraction</h2>
-    <form id="subtract">
-      <div class="form-group">
-        <label for="subtract1">1st number</label>
-        <input id="subtract1" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="subtract2">2nd number</label>
-        <input id="subtract2" class="form-control" type="text">
-      </div>
-      <button type="submit" class="">Subtract!</button>
-    </form>
-    <h2>Multiplication</h2>
-    <form id="multiply">
-      <div class="form-group">
-        <label for="multiply1">1st number</label>
-        <input id="multiply1" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="multiply2">2nd number</label>
-        <input id="multiply2" class="form-control" type="text">
-      </div>
-      <button type="submit" class="">Multiply!</button>
-    </form>
-    <h2>Division</h2>
-    <form id="divide">
-      <div class="form-group">
-        <label for="divide1">1st number</label>
-        <input id="divide1" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="divide2">2nd number</label>
-        <input id="divide2" class="form-control" type="text">
-      </div>
-      <button type="submit" class="">Divide!</button>
-    </form>
-    <div id="output">
-
+    </div>
+  </div>
+  <div class="container-fluid container02">
+    <div class="footer">
+      <p id="footerText">&copy; 2021 Calculator Application.</p>
     </div>
   </div>
 </body>
