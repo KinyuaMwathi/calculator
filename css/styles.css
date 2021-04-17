@@ -1,0 +1,30 @@
+.container01 {
+  background-color: #7CE529;
+  height: 300px;
+}
+
+#heading01 {
+  color: white;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#output {
+  display: none;
+}
+
+.container02 {
+  background-color: #687B5A;
+  height: 250px;
+}
+
+#footerText {
+  color: white;
+  padding-top: 118px;
+  text-align: center;
+}
