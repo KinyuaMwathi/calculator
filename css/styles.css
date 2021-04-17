@@ -14,8 +14,9 @@
   margin-bottom: 50px;
 }
 
-#output {
+#hidden {
   display: none;
+  margin-top: 20px;
 }
 
 .container02 {
